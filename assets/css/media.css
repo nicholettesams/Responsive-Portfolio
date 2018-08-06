@@ -16,8 +16,15 @@
 
 @media only screen and (max-width : 640px) {
     /* Styles */
-    .main-container{
+    #masthead{
+        position: relative;
         max-width: 300px;
+        text-align: center; 
+    }
+
+    #main-container{
+        max-width: 300px;
+        padding-top: 0px;
     }
     .container{
         max-width: 300px;
@@ -25,19 +32,30 @@
     }
 
     #logo{
+        height: 90px;
         width: 100%;
         float: none;
         text-align: center;
     }
 
-    .nav{
+    nav{
+        max-width: 300px;
         width: 100%;
         float: none;
         text-align: center;
     }
 
+    /* about/index page */
     .auth-image{
-        width: 250px;
+        width: 225px;
         height: auto;
     }
-    
+
+    /* portfolio page */
+    .work {
+        position: relative;
+        float: left;
+        width: 225px;
+        margin: 20px 0 25px;
+        overflow: auto;
+      }
