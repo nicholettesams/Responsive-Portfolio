@@ -134,6 +134,16 @@ h3, h2 {
   border: 1px solid #ddd;
 }
 
+/* about/index page */
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+  border: 1px solid #666;
+}
+
 /* portfolio page */
 
 .work {
@@ -168,13 +178,7 @@ h3, h2 {
   border-bottom: 0;
 }
 
-.auth-image {
-  float: left;
-  width: 200px;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
-}
+
 
 /* contact page */
 
