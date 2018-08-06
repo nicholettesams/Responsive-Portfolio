@@ -1,55 +1,54 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Contact Nicholette Sams</title>
-        <link rel="shortcut icon" href="assets/images/NS-monogram.jpg" />
-        <!-- Linking CSS -->
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <!-- Linking Media Query CSS -->
-	    <link rel="stylesheet" type="text/css" href="assets/css/media.css">
-    </head>
 
-    <body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Nicholette Sams</title>
+  <link rel="shortcut icon" href="assets/images/NS-monogram.jpg" />
+  <!-- Linking CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
 
-        <header class="mainheader">
-            <div class = "subheader">
-                <section class="yourname">Nicholette M.B. Sams</section>
-                <nav class="navbar">
-                        <a href="index.html">About</a> |
-                        <a href="portfolio.html">Portfolio</a> |
-                        <a class="active" href="contact.html">Contact</a> 
-                </nav>
-            </div>
-        </header>
+<body>
 
-        <br><br>    
-        <div class = "maincontent">
-            <h1>Contact</h1>
-            <hr>
-                <form action="mailto:nicholettesams@msn.com" method="GET">
-                <label for="name">Name</label>
-                <br>
-                <input type="text" id="name" name="Subject" required>
-                <br><br>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Nicholette Sams</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-                <label for="email">Email</label>
-                <br>
-                <input type="text" id="email" name="CC" required>
-                <br><br>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
-                <label for="body">Message</label>
-                <br>
-                <textarea id="body" name="body" class="message" maxlenth="6000" required></textarea>
-                <br><br>
+      <form id="contact-form" action="mailto:nicholettesams@Msn.com" method="GET">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="John Smith" required="required">
 
-                <input type="submit" name="submit" value="Submit" class="submit">
-            </form>
-        </div>
-        <div class="prefooter"></div>
-        <footer class="footer">Copyright 2018</footer>
-    </body>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
 
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required="required"></textarea>
 
-  </html>
+          <input type="submit" name="submit" value="Submit">
+      </form>
+
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
+</body>
+
+</html>
