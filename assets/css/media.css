@@ -1,16 +1,22 @@
 
 @media only screen and (max-width : 980px) {
     /* Styles */
+    #masthead{
+        max-width: 925px;
+    }
     .main-container{
-        max-width: 800px;
+        max-width: 925px;
     }
 }
 
 
 @media only screen and (max-width : 768px) {
     /* Styles */
+    #masthead{
+        max-width: 725px;
+    }
     .main-container{
-        max-width: 700px;
+        max-width: 725px;
     }
 }
 
@@ -20,11 +26,13 @@
         position: relative;
         max-width: 300px;
         text-align: center; 
+        padding-right: 0;
     }
 
     #main-container{
         max-width: 300px;
         padding-top: 0px;
+        float: left;
     }
     .container{
         max-width: 300px;
@@ -32,7 +40,7 @@
     }
 
     #logo{
-        height: 90px;
+        height: 100%;
         width: 100%;
         float: none;
         text-align: center;
