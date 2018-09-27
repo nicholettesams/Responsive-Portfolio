@@ -118,15 +118,7 @@ h3, h2 {
   border-bottom: 2px solid #eee;
 }
 
-.icon-container{
-  text-align: center;
-}
 
-.icons {
-  height: 40px;
-  width: auto;
-  text-align: center;
-}
 
 /* main */
 
@@ -229,4 +221,16 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+
+.icon-container{
+  text-align: center;
+}
+
+.icons {
+  height: 40px;
+  width: 40px !important;
+  text-align: center;
+  margin-left: 10px;
 }
