@@ -221,6 +221,7 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+  margin-top: 10px;
 }
 
 
